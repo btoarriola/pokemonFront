@@ -1,0 +1,9 @@
+/* pokemon-list.component.css */
+
+.pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Se adapta automáticamente al tamaño del contenedor */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px;
+  }
+ 

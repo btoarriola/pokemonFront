@@ -1,7 +1,6 @@
 .footer {
-    position: fixed; /* Fija el footer en la parte inferior de la pantalla */
     left: 0;
-    bottom: 0;
+    bottom: 0%;
     width: 100%; /* Ocupa todo el ancho de la pantalla */
     background-color: #261e1b; /* Cambia el color de fondo */
     color: #fff; /* Cambia el color del texto */

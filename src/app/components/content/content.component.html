@@ -1,0 +1,13 @@
+<mat-paginator [pageSize]="pageSize" [length]="data.length" (page)="onPageChange($event)"></mat-paginator>
+<mat-grid-list [cols]="4" rowHeight="200px">
+  <mat-grid-tile *ngFor="let item of getPaginatedData()" (click)="openDialog(item)">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{ item.name }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <img src="{{item.image}}" alt="imagePokemon">
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
