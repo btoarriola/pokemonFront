@@ -1,0 +1,25 @@
+.table2{
+    width: 100%;
+}
+
+.table2 td{
+    padding-left: 20px;
+}
+
+#tdheader{
+    padding: none;
+    margin: 0;
+}
+#tdrest{
+    box-shadow: 0px 0.5px 10px 0.5px #404040; 
+    border-radius: 15px;
+    background-color: white;
+}
+
+.vline{
+    border-right:#271c91 1px solid;
+}
+
+.hline{
+    border-bottom:#271c91 1px solid;
+}

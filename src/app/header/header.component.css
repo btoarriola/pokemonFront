@@ -1,0 +1,21 @@
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background:linear-gradient(to right, white, orange);;
+    color: white;
+  }
+  
+  /* Estilos para el logo */
+  .logo {
+    width: 100px; /* Ajusta el ancho según necesites */
+    height: auto; /* Esto mantiene la proporción */
+  }
+  
+  /* Estilos para la fecha */
+  .fecha {
+    font-size: 18px;
+  }
+  

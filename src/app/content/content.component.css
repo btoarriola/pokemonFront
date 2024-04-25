@@ -1,0 +1,47 @@
+/* pokemon-list.component.css */
+
+.pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Se adapta automáticamente al tamaño del contenedor */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px;
+  }
+  
+  .pokemon-card {
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rounded-button {
+    border-radius: 20px; /* Bordes redondeados */
+    background-color: #d8680c; /* Color del botón */
+    color: #ffffff; /* Color del texto */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+  }
+  
+  .rounded-button:hover {
+    background-color: #e07926; /* Cambia el color del botón al pasar el mouse */
+  }
+  
+  /* Estilos específicos para los botones Previous y Next */
+  .previous-button,
+  .next-button {
+    margin-top: 20px; /* Margen superior para separar los botones de la cuadrícula */
+  }
+  
+/* pokemon-list.component.css */
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a los extremos */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-top: 20px; 
+    padding: 30px;
+  }
+    
